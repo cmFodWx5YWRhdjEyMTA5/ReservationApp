@@ -269,28 +269,28 @@ public class HistoryFragment extends BaseFragment implements OnRefreshListener {
 
         try {
             setLoadingIndicator(this.mLoadingIndicator, false);
-            url = "http://vettopetklinik.xyz/api/unpaid.php?"+"id_user="+id;
+            url = "http://krakalineshuttle.xyz/api/unpaid.php?"+"id_user="+id;
             JSONObject json = jParser.getJSONFromUrl(url);
 
 
-            urll = "http://vettopetklinik.xyz/api/paid.php?"+"id_user="+id;
+            urll = "http://krakalineshuttle.xyz/api/paid.php?"+"id_user="+id;
             JSONObject jsson = jParser.getJSONFromUrl(urll);
 
 
-            urlll = "http://vettopetklinik.xyz/inprogress.php?"+"id_user="+id;
+            urlll = "http://krakalineshuttle.xyz/inprogress.php?"+"id_user="+id;
             JSONObject jssson = jParser.getJSONFromUrl(urlll);
 
 
-            urllll = "http://vettopetklinik.xyz/api/habis.php?"+"id_user="+id;
+            urllll = "http://krakalineshuttle.xyz/api/habis.php?"+"id_user="+id;
             JSONObject jsssson = jParser.getJSONFromUrl(urllll);
 
 
-            canc = "http://vettopetklinik.xyz/api/cancel.php?"+"id_user="+id;
+            canc = "http://krakalineshuttle.xyz/api/cancel.php?"+"id_user="+id;
             JSONObject cance = jParser.getJSONFromUrl(canc);
 
 
 
-            rej = "http://vettopetklinik.xyz/api/dibatalkan.php?"+"id_user="+id;
+            rej = "http://krakalineshuttle.xyz/api/dibatalkan.php?"+"id_user="+id;
             JSONObject reject = jParser.getJSONFromUrl(rej);
             String success;
             success = reject.getString("status");

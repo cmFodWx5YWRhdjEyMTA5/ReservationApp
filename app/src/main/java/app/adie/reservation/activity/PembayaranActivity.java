@@ -60,9 +60,9 @@ import app.adie.reservation.utils.StringUtils;
 import static android.os.Environment.getExternalStoragePublicDirectory;
 
 public class PembayaranActivity extends BaseActivity implements View.OnClickListener {
-    public static final String UPLOAD_URL = "http://vettopetklinik.xyz/api/upload.php";
+    public static final String UPLOAD_URL = "http://krakalineshuttle.xyz/api/upload.php";
     public static final String UPLOAD_KEY = "image";
-    public static final String FILE_UPLOAD_URL = "http://vettopetklinik.xyz/api/fileUpload.php";
+    public static final String FILE_UPLOAD_URL = "http://krakalineshuttle.xyz/api/fileUpload.php";
     public static final String IMAGE_DIRECTORY_NAME = "Krakaline";
     private int PICK_IMAGE_REQUEST = 1;
     private static final int CAMERA_CAPTURE_IMAGE_REQUEST_CODE = 133;

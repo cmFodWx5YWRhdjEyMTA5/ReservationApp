@@ -52,8 +52,8 @@ public class KonfirmasiFragment extends BaseFragment implements OnClickListener 
     private TextView mNamaPenum;
     private Button btn_pesan;
     JSONParser jParser = new JSONParser();
-    private static String url = "http://vettopetklinik.xyz/api/konfirmasipesan.php";
-    private static String urll = "http://vettopetklinik.xyz/api/konfirmasi.php";
+    private static String url = "http://krakalineshuttle.xyz/api/konfirmasipesan.php";
+    private static String urll = "http://krakalineshuttle.xyz/api/konfirmasi.php";
 
 
 

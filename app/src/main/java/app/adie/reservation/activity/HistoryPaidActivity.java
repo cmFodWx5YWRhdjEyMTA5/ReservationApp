@@ -75,7 +75,7 @@ public class HistoryPaidActivity extends BaseActivity implements OnClickListener
     private static int harga;
     public static AppCompatActivity activity;
     private DialogLunasFragment mKetFragment;
-    private static String url = "http://vettopetklinik.xyz/api/pembatalan.php";
+    private static String url = "http://krakalineshuttle.xyz/api/pembatalan.php";
     JSONParser jParser = new JSONParser();
     private EditText inputkode, inputharga, inputdiskon,inputtot,inputmetode,inputbatas,inputkeberangkatan,inputtuju,inptgl,inpjam,inppenum,inpkursi;
     protected void onCreate(Bundle savedInstanceState) {
@@ -215,7 +215,7 @@ public class HistoryPaidActivity extends BaseActivity implements OnClickListener
             Toast.makeText(getApplicationContext(), "E-Tiket berhasil di download harap install pdf viewer untuk melihat E-Tiket Anda" , Toast.LENGTH_LONG).show();
             WebSettings webSettings = myWebView.getSettings();
             webSettings.setJavaScriptEnabled(true);
-            myWebView.loadUrl("http://vettopetklinik.xyz/api/etiket.php?id="+id_pemesanan);
+            myWebView.loadUrl("http://krakalineshuttle.xyz/api/etiket.php?id="+id_pemesanan);
             materialSheetFab.hideSheet();
         }
         if (v== findViewById(R.id.fab_cancel)){

@@ -41,7 +41,7 @@ public class LupaPass extends BaseActivity {
     FrameLayout frame;
     JSONParser jsonParser = new JSONParser();
     SessionManager session;
-    private static String url = "http://vettopetklinik.xyz/api/fpass.php";
+    private static String url = "http://krakalineshuttle.xyz/api/fpass.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

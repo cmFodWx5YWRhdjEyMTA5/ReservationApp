@@ -128,7 +128,7 @@ public class TujuanFragment extends BaseFragment implements SwipeRefreshLayout.O
 
             try {
                 setLoadingIndicator(this.mLoadingIndicator, false);
-                url = "http://vettopetklinik.xyz/api/tujuan.php?"+"kode_asal="+kodejurusan;
+                url = "http://krakalineshuttle.xyz/api/tujuan.php?"+"kode_asal="+kodejurusan;
                 JSONObject json = jParser.getJSONFromUrl(url);
                 // Check your log cat for JSON reponse
                 Log.d("All Products: ", kodejurusan);

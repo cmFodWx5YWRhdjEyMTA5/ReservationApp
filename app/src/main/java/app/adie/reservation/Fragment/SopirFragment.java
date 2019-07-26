@@ -46,7 +46,7 @@ public class SopirFragment extends BaseFragment implements SwipeRefreshLayout.On
     private RecyclerView mRecyclerView;
     private FrameLayout mImg;
     private SwipeRefreshLayout mSwipeRefreshLayout;
-    private String url_all_products = "http://vettopetklinik.xyz/api/sopirapi.php";
+    private String url_all_products = "http://krakalineshuttle.xyz/api/sopirapi.php";
     JSONArray products = null;
     private ObservableScrollView mScrollView;
 

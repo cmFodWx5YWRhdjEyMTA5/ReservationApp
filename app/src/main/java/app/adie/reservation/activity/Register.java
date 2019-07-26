@@ -43,7 +43,7 @@ public class Register extends BaseActivity {
     private ConnectionDetector cd;
     private JSONParser jsonParser = new JSONParser();
     public SessionManager session;
-    private static String url = "http://vettopetklinik.xyz/api/register.php";
+    private static String url = "http://krakalineshuttle.xyz/api/register.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -43,8 +43,8 @@ public class AkunSaya extends BaseActivity {
     ConnectionDetector cd;
     JSONParser jsonParser = new JSONParser();
     SessionManager session;
-    private static String url = "http://vettopetklinik.xyz/api/ubahakun.php";
-    private static String urlloc = "http://vettopetklinik.xyz/api/ubahakun.php";
+    private static String url = "http://krakalineshuttle.xyz/api/ubahakun.php";
+    private static String urlloc = "http://krakalineshuttle.xyz/api/ubahakun.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

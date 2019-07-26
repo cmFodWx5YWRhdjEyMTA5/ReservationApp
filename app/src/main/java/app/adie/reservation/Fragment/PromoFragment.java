@@ -36,7 +36,7 @@ public class PromoFragment extends BaseFragment implements SwipeRefreshLayout.On
     private Adapter mAdapter;
     private LoadingIndicator mLoadingIndicator;
     JSONParser jParser = new JSONParser();
-    private String url = "http://vettopetklinik.xyz/api/promo.php";
+    private String url = "http://krakalineshuttle.xyz/api/promo.php";
     private FrameLayout mImg;
     private RecyclerView mRecyclerView;
     private SwipeRefreshLayout mSwipeRefreshLayout;

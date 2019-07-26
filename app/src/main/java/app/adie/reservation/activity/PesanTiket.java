@@ -75,7 +75,7 @@ public class PesanTiket extends BaseFragment implements OnClickListener,OnTouchL
     private TextView mTujuan;
     private TextView mDateFrom;
     private TextView mDateTo;
-    private static String url = "http://vettopetklinik.xyz/api/cekuser.php";
+    private static String url = "http://krakalineshuttle.xyz/api/cekuser.php";
     private TextView mFinalVisibleView;
     private Register regis = new Register();
     private boolean isActionMode = false;

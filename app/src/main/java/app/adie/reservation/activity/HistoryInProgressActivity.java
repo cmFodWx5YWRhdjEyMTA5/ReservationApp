@@ -72,7 +72,7 @@ public class HistoryInProgressActivity extends BaseActivity  {
             this.harga = extras.getInt("harga");
             this.diskon = extras.getInt("diskon");
             this.id_pemesanan = extras.getString("id_pem");
-            String gambar = "http://vettopetklinik.xyz/"+bukti;
+            String gambar = "http://krakalineshuttle.xyz/"+bukti;
             Glide.with(getApplicationContext()).load(gambar).thumbnail(0.5f)
                     .transition(new DrawableTransitionOptions().crossFade())
                     .diskCacheStrategy(DiskCacheStrategy.ALL).into(img);

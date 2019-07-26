@@ -125,7 +125,7 @@ public class SignIn extends BaseActivity implements GoogleApiClient.OnConnection
 			
 			@Override
 			public void onClick(View v) {
-				url = "http://vettopetklinik.xyz/api/login.php?" + "username="
+				url = "krakalineshuttle.xyz/api/login.php?" + "username="
 						+ inputuname.getText().toString() + "&password="
 						+ inputpassword.getText().toString();
 				if (!validateUName()) {
@@ -185,7 +185,7 @@ public class SignIn extends BaseActivity implements GoogleApiClient.OnConnection
 			String namaa = acct.getDisplayName();
 			StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
 			StrictMode.setThreadPolicy(policy);
-				plus = "http://vettopetklinik.xyz/api/loginGplus.php?" + "email="+ emaiil;
+				plus = "krakalineshuttle.xyz/api/loginGplus.php?" + "email="+ emaiil;
 
 			try {
 					int successs;

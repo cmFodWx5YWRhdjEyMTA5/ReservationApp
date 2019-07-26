@@ -41,7 +41,7 @@ public class JurusanFragment extends BaseFragment implements SwipeRefreshLayout.
     private LoadingIndicator mLoadingIndicator;
     private RecyclerView mRecyclerView;
     private SwipeRefreshLayout mSwipeRefreshLayout;
-    private String url_all_products = "http://vettopetklinik.xyz/api/jurusan.php";
+    private String url_all_products = "http://krakalineshuttle.xyz/api/jurusan.php";
     JSONArray products = null;
 
     public boolean setLoadingIndicator(LoadingIndicator mLoadingIndicator, boolean isShow) {

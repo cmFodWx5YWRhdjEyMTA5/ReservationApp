@@ -6,8 +6,8 @@ package app.adie.reservation.app;
 public class EndPoints {
 
 
-    public static final String BASE_API_URL = "http://vettopetklinik.xyz/api";
-    public static final String BASE_URL = "http://vettopetklinik.xyz/api";
+    public static final String BASE_API_URL = "http://krakalineshuttle.xyz/api";
+    public static final String BASE_URL = "http://krakalineshuttle.xyz/api";
     public static final String INSERTCHAT = BASE_URL + "/user/chat";
     public static final String USER = BASE_URL + "/user/_ID_";
     public static final String CHAT_ROOMS = BASE_URL + "/chat_rooms_all/_ID_";

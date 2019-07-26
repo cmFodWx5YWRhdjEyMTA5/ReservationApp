@@ -150,7 +150,7 @@ public class JamPromoFragment extends BaseFragment implements SwipeRefreshLayout
 
 
     private void getJamBer(boolean progress, String kodeJamBer,String tanggal) {
-        url = "http://vettopetklinik.xyz/api/jam.php?"+"kode="+kodeJamBer.toString()+"&tanggal="+tanggal.toString();
+        url = "http://krakalineshuttle.xyz/api/jam.php?"+"kode="+kodeJamBer.toString()+"&tanggal="+tanggal.toString();
 
 
 

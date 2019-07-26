@@ -81,7 +81,7 @@ public class MainActivity extends BaseActivity {
     private int a,b;
     Boolean isInternetPresent = false;
     ConnectionDetector cd;
-    private static String url = "http://vettopetklinik.xyz/api/updatestat.php";
+    private static String url = "http://krakalineshuttle.xyz/api/updatestat.php";
     JSONArray contacts = null;
     String email, nama, id,phone;
     @SuppressLint({"CutPasteId", "SetTextI18n"})
@@ -275,15 +275,15 @@ public class MainActivity extends BaseActivity {
                     case 0:
                         return HeaderDesign.fromColorResAndUrl(
                                 R.color.colorPrimary,
-                                "http://vettopetklinik.xyz/api/wel.png");
+                                "http://krakalineshuttle.xyz/api/wel.png");
                     case 1:
                         return HeaderDesign.fromColorResAndUrl(
                                 R.color.main,
-                                "http://vettopetklinik.xyz/api/tess.jpg");
+                                "http://krakalineshuttle.xyz/api/tess.jpg");
                     case 2:
                         return HeaderDesign.fromColorResAndUrl(
                                 R.color.colorAccent,
-                                "http://vettopetklinik.xyz/kraka/api/ff.png");
+                                "http://krakalineshuttle.xyz/kraka/api/ff.png");
 
 
 
